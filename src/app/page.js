@@ -35,7 +35,7 @@ export default function Home() {
         <p className="w-90">
           <a href="https://www.instagram.com/i_am_monarch_777/" target="new" className="underline">Monarch</a> is the perfume maison of <a className="underline" href="http://saint-warren.com" target="new">Saint Warren</a>.
         </p>
-        <p className="p-24">
+        <p>
           To continue, enter the password:
           <p>
           <input
