@@ -25,7 +25,7 @@ export default function Home() {
   const validateInput = e => {
     let { value } = e.target;
       if (value == "opensesame") {
-        alert('To book an appointment, go to https://saint-warren@i-am-monarch.org')
+        alert('To book an appointment, email saint-warren@i-am-monarch.org')
       }
   }
   
@@ -33,7 +33,7 @@ export default function Home() {
     return (
       <main className="text-white bg-sunglasses bg-cover bg-center bg-white flex min-h-screen flex-col items-end justify-start p-24">
         <p className="w-90">
-          <a className="underline">Monarch</a> is the perfume maison of <a className="underline" href="http://saint-warren.com" target="new">Saint Warren</a>.
+          <a href="https://www.instagram.com/i_am_monarch_777/" target="new" className="underline">Monarch</a> is the perfume maison of <a className="underline" href="http://saint-warren.com" target="new">Saint Warren</a>.
         </p>
         <p className="p-24">
           To continue, enter the password:
